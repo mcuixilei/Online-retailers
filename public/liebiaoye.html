@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="./css/liebiaoye.css">
+        <link rel="stylesheet" type="text/css" href="./css/xiala.css">
+    <script defer src="js/liebiaoye.js"></script>
+    <script defer src="js/jquery-3.1.1.js"></script>
+        <script defer src="js/sessionStorage.js"></script>
+</head>
+<body>
+<div style="width:100%;">
+    <div style="width: 1349px;margin: 0 auto">
+   <div id="top">
+    <div id="dingwei">
+        <ul>
+            <li id="redhrb"><img src="./images/dingwei.jpg"><a href="#"><b>哈尔滨站</b></a></li>
+            <li><a href="#">[切换]</a></li>
+            <li><a href="denglu.html" id="uname">请登录</a></li>
+            <li><a href="yonghuzhuce.html">免费注册</a></li>
+        </ul>
+    </div>
+    <div id="denglu">
+        <ul>
+            <li><a href="index.html">我的丽美<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="chakandingdan.html">我的订单</a></li>
+                        <li><a href="shoucangjia.html">我的收藏</a></li>
+                        <li><a href="#">我的足迹</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="gouwuche01.html"><img src="./images/gouwuche01.jpg">购物车<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="gouwuche02.html" title="查看购物车">查看购物车</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><img src="./images/gouwuche02.png">关注丽美<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li style="    padding: 0px;">
+                            <a href="#"><img src="images/erweima.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">帮助中心<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">购买流程</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">收藏本站<img src="./images/xiabiao.png"></a> </li>
+            <li><a href="#">南岗体验馆：0451-51787440<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li class="daoLi"><a href="#">道里体验馆：0451-51788888</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+        <div id="logo">
+            <div>
+                <img id="biglogo" src="./images/logo.png">
+            </div>
+            <div id="sousuo">
+                <div>
+                    <input type="text" id="souInput"><button id="soubtn"></button>
+                </div>
+
+                <div >
+                    <ul>
+                        <li>限时抢购</li>
+                        <li>床</li>
+                        <li>沙发</li>
+                        <li>灯饰</li>
+                        <li>卫浴</li>
+                        <li>家具</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-left: 10px">
+                <a href="huodongye.html" > <img src="images/shouye/11.jpg"></a>
+            </div>
+            <div style="margin-left: 10px">
+                <img src="images/shouye/ma.jpg">
+            </div>
+        </div>
+        <div id="daohang">
+            <div style="width: 79px"><a href="index.html" ><img src="images/shouye/index.png">首页</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/woshi.png">卧室家具</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/keting.png">客厅家具</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/canting.png">餐厅家具</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/shufang.png">书房家具</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/ertong.png">儿童家具</a></div>
+            <div><a href="liebiaoye.html" ><img src="images/shouye/huwai.png">户外办公</a></div>
+        </div>
+<div id="shaixuan">
+    <div class="hang">
+        <div class="woshi">卧室</div>
+        <div class="fenlei" style="    position: relative; top: -6px;">
+            <div>床(1104)</div>   <div>床垫(156)</div>   <div>  美规床(8)</div>   <div>美国进口床垫(53) </div>
+            <div> 床头柜(530) </div>   <div> 衣柜(406) </div>   <div>定制衣柜(12)</div>  <div> 斗柜(186) </div>
+            <div> 妆台镜/妆凳(477)</div> <div>穿衣镜/衣帽架(179)</div> <div>   床尾凳(38) </div> <div> 卧室套装(68)</div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">尺寸</div>
+        <div class="fenlei">
+            <div>1.8*2.0米</div>   <div> 1.5*2.0米 </div>   <div>1.5*1.9米</div>   <div>2.0*2.0米</div>
+            <div>2.0*2.2米</div>   <div>1.2*2.0米</div>   <div> 1.2*1.9米</div>  <div>1.35*2.0米</div>
+            <div>0.9*1.9米 </div> <div> 1.35*1.9米</div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">风格</div>
+        <div class="fenlei">
+            <div>美式古典 </div>   <div>法式风格</div>   <div>  欧式田园</div>   <div>中式风格 </div>
+            <div> 现代风格 </div>   <div> 北欧风格 </div>   <div> 欧式古典 </div>  <div>美式田园</div>
+            <div> 地中海风格</div> <div>简美风格</div><div style="width: 52px;height: 27px;background-color:
+             rgb(195,24,31);color: white;">更多</div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">类型</div>
+        <div class="fenlei">
+            <div>木质床 </div>   <div>皮艺床</div>   <div>布艺床</div>   <div> 铁艺床 </div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">床结构</div>
+        <div class="fenlei">
+            <div>排骨架</div>   <div>床板条  </div>   <div>床板床</div>   <div>高箱床</div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">价格</div>
+        <div class="fenlei">
+            <div>0-2499元 </div>   <div>2500-3499元 </div>   <div>3500-4999元</div>   <div>5000-7499元 </div>
+            <div> 7499-9999元 </div>   <div> 10000元以上 </div><div><input type="text"><span>-</span><input type="text"></div>
+            <div style="width: 52px;height: 27px;background-color:
+             rgb(195,24,31);color: white;">确定</div>
+        </div>
+    </div>
+    <div class="hang">
+        <div class="woshi">价格</div>
+        <div class="fenlei" id="pinpai">
+            <div class="pinpai"><img src="images/liebiaoye/pinpai1.jpg"></div>   <div class="pinpai"><img src="images/liebiaoye/pinpai2.jpg"></div>
+            <div class="pinpai"><img src="images/liebiaoye/pinpai3.jpg"></div>   <div class="pinpai"><img src="images/liebiaoye/pinpai4.jpg"> </div>
+            <div> <img src="images/liebiaoye/pinpai5.jpg"></div>   <div><img src="images/liebiaoye/pinpai6.jpg"></div>
+            <div><img src="images/liebiaoye/pinpai7.jpg"></div>
+        </div>
+    </div>
+    <!--<img  style="position: absolute;top: 300px;left: 1203px;" src="images/liebiaoye/guanggao.png">-->
+</div>
+<div id="zonghe">
+    <div style="background-color: rgb(195,24,31);
+    color: white;" class="geshi1">综合</div>
+    <div class="geshi1">销量</div>
+    <div class="geshi1">价格</div>
+    <div class="geshi2">上架时间</div>
+    <div style="    margin-left: 530px;">共<span>1103</span>件商品1/30</div>
+    <div><img src="images/liebiaoye/zuoJT.png"></div>
+    <div><img src="images/liebiaoye/youJT.png"></div>
+</div>
+<div id="peisong">
+    <div>
+        配送至<select><option>请选择地区</option></select>
+    </div>
+    <div id="leixing">
+       <div>类型：</div> <div><input type="radio">全部</div>
+        <div><input type="radio">丽美配送</div>
+        <div><input type="radio">第三方配送</div>
+        <div><input type="radio">包邮</div>
+        <div><input type="radio">折扣</div>
+    </div>
+</div>
+<div id="liebiao">
+    <div class="yihang">
+    <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+        <div>
+            <img class="tu" src="images/liebiaoye/xc1.png" >
+        </div>
+        <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+            ¥2199.00
+        </div>
+        <div class="msxx" style="font-size: 14px;" >
+            [彼岸阳光] 地中海风格 人气爆款 栅栏式
+        </div>
+        <div style="overflow: hidden; font-size: 15px;">
+            <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+        </div>
+        <div class="gouxuan">
+            <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+        </div>
+    </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+        <div style="    width: 250px;
+    line-height: 29px;" class="shangpin">
+            <div>
+                <img class="tu" src="images/liebiaoye/xc1.png" >
+            </div>
+            <div class="cprice" style=" color: rgb(195,24,31) ;  font-size: 18px;">
+                ¥2199.00
+            </div>
+            <div class="msxx" style="font-size: 14px;" >
+                [彼岸阳光] 地中海风格 人气爆款 栅栏式
+            </div>
+            <div style="overflow: hidden; font-size: 15px;">
+                <div style="float: left;margin-right: 14px;">已售 <span class="pingLun" style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span class="xiaoLiang" style=" color: rgb(195,24,31) ;">3329</span></div>
+            </div>
+            <div class="gouxuan">
+                <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div class="add">加入购物车</div>
+            </div>
+        </div>
+    </div>
+
+<div id="fanye" style="margin-top: 50px">
+    <div style="margin-left: 209px" class="zi">
+        <<上一页
+    </div>
+    <div class="shu">
+1
+    </div>
+    <div class="shu">
+2
+    </div>
+    <div class="shu">
+3
+    </div>
+    <div class="shu">
+4
+    </div>
+    <div class="zi">
+        下一页>>
+    </div>
+</div>
+<div id="cainixihuan">
+    <div>猜你喜欢</div>
+    <div>您关注的分类：</div>
+    <div>衣柜 </div>
+    <div>餐厅套装</div>
+    <div>床妆台</div>
+    <div>餐桌</div>
+    <div>客厅套装</div>
+    <div>您喜欢风格的：</div>
+    <div>法式风格</div>
+    <div>韩式风格</div>
+    <div>地中海风格</div>
+</div>
+<div style="    width: 1027px; margin: 20px auto;overflow: hidden">
+<div class="yihang">
+    <div style="    width: 250px;
+    line-height: 29px;">
+        <div>
+            <img src="images/liebiaoye/xc1.png">
+        </div>
+        <div style=" color: rgb(195,24,31) ;  font-size: 18px;">
+            ¥2199.00
+        </div>
+        <div style="font-size: 14px;">
+            [彼岸阳光] 地中海风格 人气爆款 栅栏式
+        </div>
+        <div style="overflow: hidden; font-size: 15px;">
+            <div style="float: left;margin-right: 14px;">已售 <span style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span style=" color: rgb(195,24,31) ;">3329</span></div>
+        </div>
+        <div class="gouxuan">
+            <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div>加入购物车</div>
+        </div>
+    </div>
+    <div style="    width: 250px;
+    line-height: 29px;">
+        <div>
+            <img src="images/liebiaoye/xc1.png">
+        </div>
+        <div style=" color: rgb(195,24,31) ;  font-size: 18px;">
+            ¥2199.00
+        </div>
+        <div style="font-size: 14px;">
+            [彼岸阳光] 地中海风格 人气爆款 栅栏式
+        </div>
+        <div style="overflow: hidden; font-size: 15px;">
+            <div style="float: left;margin-right: 14px;">已售 <span style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span style=" color: rgb(195,24,31) ;">3329</span></div>
+        </div>
+        <div class="gouxuan">
+            <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div>加入购物车</div>
+        </div>
+    </div>
+    <div style="    width: 250px;
+    line-height: 29px;">
+        <div>
+            <img src="images/liebiaoye/xc1.png">
+        </div>
+        <div style=" color: rgb(195,24,31) ;  font-size: 18px;">
+            ¥2199.00
+        </div>
+        <div style="font-size: 14px;">
+            [彼岸阳光] 地中海风格 人气爆款 栅栏式
+        </div>
+        <div style="overflow: hidden; font-size: 15px;">
+            <div style="float: left;margin-right: 14px;">已售 <span style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span style=" color: rgb(195,24,31) ;">3329</span></div>
+        </div>
+        <div class="gouxuan">
+            <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div>加入购物车</div>
+        </div>
+    </div>
+    <div style="    width: 250px;
+    line-height: 29px;">
+        <div>
+            <img src="images/liebiaoye/xc1.png">
+        </div>
+        <div style=" color: rgb(195,24,31) ;  font-size: 18px;">
+            ¥2199.00
+        </div>
+        <div style="font-size: 14px;">
+            [彼岸阳光] 地中海风格 人气爆款 栅栏式
+        </div>
+        <div style="overflow: hidden; font-size: 15px;">
+            <div style="float: left;margin-right: 14px;">已售 <span style=" color: rgb(195,24,31) ;">38529 </span></div> <div> 评论 <span style=" color: rgb(195,24,31) ;">3329</span></div>
+        </div>
+        <div class="gouxuan">
+            <div ><input type="checkbox">对比</div> <div><img src="images/liebiaoye/shouCang.png"></div><div>收藏</div><div><img src="images/liebiaoye/jiaRu.png"></div><div>加入购物车</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    </div>
+        <div id="tiaodiv">
+            <img src="./images/tubiao_01.png">
+            <img src="./images/tubiao_02.png">
+            <img src="./images/tubiao_03.png">
+            <img src="./images/tubiao_04.png">
+            <img src="./images/tubiao_05.png">
+            <img src="./images/tubiao_06.png">
+            <img src="./images/tubiao_07.png">
+            <img src="./images/tubiao_08.png">
+        </div>
+        <div id="bottom">
+            <div>
+                <ul>
+                    <li class="biaoti">关于美美乐</li>
+                    <li>公司简介</li>
+                    <li>媒体聚焦</li>
+                    <li>体验馆</li>
+                    <li>诚聘英才</li>
+                    <li>招商加盟</li>
+                    <li>联系我们</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="biaoti">新手指南</li>
+                    <li>注册新用户</li>
+                    <li>会员级别</li>
+                    <li>金币说明</li>
+                    <li>乐币说明</li>
+                    <li>订购家具流程</li>
+                    <li>体验馆购买指导</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="biaoti">配送安装</li>
+                    <li>收货指南</li>
+                    <li>体验馆服务费</li>
+                    <li>物流配送</li>
+
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="biaoti">售后服务</li>
+                    <li>45天无理由退换货</li>
+                    <li>如何申请退款</li>
+                    <li>维修补件说明</li>
+                    <li>第三方订单售后服务</li>
+                    <li>贵就赔</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="biaoti">购物保障</li>
+                    <li>正品保证</li>
+                    <li>注册协议</li>
+                    <li>隐私保护</li>
+                    <li>免责声明</li>
+                </ul>
+            </div>
+            <div>
+                <li class="biaoti">手机微信</li>
+                <img src="./images/erweima.jpg">
+                <li class="biaoti">官方网站</li>
+                <img src="./images/erweima.jpg">
+
+            </div>
+        </div>
+</div>
+</body>
+</html>

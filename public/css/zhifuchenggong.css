@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(227,225,225);
+}
+#dingwei{
+    margin-left: 140px;
+    font-size: 14px;
+
+}
+#dingwei img{
+    margin-top: -3px;
+}
+#dingwei li{
+    float: left;
+    margin-left:  20px;
+    margin-top: 11px;
+
+}
+#dingwei a{
+    color:rgb(56,58,57);
+}
+#redhrb a{
+    color:rgb(195,24,31);
+}
+#denglu{
+    margin-left: 555px;
+    font-size: 14px;
+}
+#denglu li{
+    float: left;
+    margin-top: 11px;
+    margin-left:  20px;
+}
+#denglu a{
+    color:rgb(56,58,57);
+}
+#logo{
+    width:100%;
+    height: 169px;
+    overflow: hidden;
+}
+#biglogo{
+    margin-left: 173px;
+    margin-top: 26px;
+    position: relative;
+
+}
+h1{
+    margin-left: 521px;
+    margin-top: -83px;
+    position: relative;
+}
+/*登录结束*/
+#gouwuche{
+    margin-left: 582px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color:rgb(195,24,31);
+}
+
+#daoru{
+    margin-left: 447px;
+    border: 1px solid rgb(56,58,57) ;
+    width: 147px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#daoru p{
+    margin: 2px 2px;
+    margin-left: 38px;
+    margin-top: -35px;
+}
+#daoru img{
+    margin: 6px;
+}
+#zhifu{
+    width: 1002px;
+    height: 919px;
+    border: 1px solid  rgb(169, 169, 169);
+    margin: 20px auto;
+}
+#zhuangtai{
+    width: 1002px;
+    height: 290px;
+    border-bottom: 1px solid  rgb(195,24,31);
+}
+.zuo{
+    float: left;
+}
+.you{
+    float: right;
+}
+#duihao{
+    margin-top: 28px;
+    margin-left: 10px;
+}
+#chenggong{
+    font-size: 22px;
+}
+#zi{
+    margin-left: 16px;
+    margin-top: 36px;
+}
+.bianhao{
+    font-size: 13px;
+    margin-top: 20px;
+}
+#zi span{
+    color:  rgb(195,24,31);
+}
+#shijian{
+    margin-top: 40px;
+}
+ #zi #xiangqing{
+
+    color: rgb(251,134,31);
+}
+#saoma{
+    margin-top: 28px;
+    margin-right: 17px;
+}
+#zhuangtai>div:first-child{
+    overflow: hidden;
+}
+#hong1{
+    width: 156px;
+    height: 45px;
+    background-color:rgb(195,24,31) ;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    margin-top: 86px;
+    margin-left: 1px;
+
+}
+#yinghang{
+    width: 1002px;
+    height: 290px;
+    border-bottom: 1px solid  rgb(195,24,31);
+}
+#inyinhang{
+
+    margin-left: 40px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+#inyinhang>div:first-child{
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+.yinhanglist{
+    float: left;
+    line-height: 54px;
+    margin-left: 20px;
+}
+.yinhanglist input{
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+#hong2{
+    width: 156px;
+    height: 45px;
+    background-color:rgb(195,24,31) ;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    margin-top: -13px;
+    margin-left: 1px;
+}
+.ruanjian{
+    float: left;
+    margin: 45px;
+}
+
+#inpingtai{
+    overflow: hidden;
+}
+#queren{
+width: 212px;
+    height: 56px;
+    background-color: rgb(195,24,31);
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 355px;
+    margin-top: 33px;
+    color: white;
+}
+#fenqi{
+    float: left;
+    height: 56px;
+    width: 300px;
+    color: rgb(56,58,57);
+    line-height: 56px;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+#anniu{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+#tiaodiv{
+    margin-left:211px;
+}
+#tiaodiv>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 13px;
+}
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(195,24,31);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti{
+    line-height: 60px;
+    font-size: 20px;
+
+}

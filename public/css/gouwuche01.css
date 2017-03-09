@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(227,225,225);
+}
+#dingwei{
+    margin-left: 140px;
+    font-size: 14px;
+
+}
+#dingwei img{
+    margin-top: -3px;
+}
+#dingwei li{
+    float: left;
+    margin-left:  20px;
+    margin-top: 11px;
+
+}
+#dingwei a{
+    color:rgb(56,58,57);
+}
+#redhrb a{
+    color:rgb(195,24,31);
+}
+#denglu{
+    margin-left: 555px;
+    font-size: 14px;
+}
+#denglu li{
+    float: left;
+    margin-top: 11px;
+    margin-left:  20px;
+}
+#denglu a{
+    color:rgb(56,58,57);
+}
+#logo{
+    width:100%;
+    height: 169px;
+    overflow: hidden;
+}
+#biglogo{
+    margin-left: 173px;
+    margin-top: 26px;
+    position: relative;
+
+}
+h1{
+    margin-left: 521px;
+    margin-top: -83px;
+    position: relative;
+}
+/*登录结束*/
+#gouwuche{
+    margin-left: 582px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color:rgb(195,24,31);
+}
+
+#daoru{
+    margin-left: 447px;
+    border: 1px solid rgb(56,58,57) ;
+    width: 147px;
+    height: 43px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#daoru p{
+    margin: 2px 2px;
+    margin-left: 38px;
+    margin-top: -35px;
+}
+#daoru img{
+    margin: 6px;
+}
+#jiesuan{
+    height:572px;
+    width: 1010px;
+    border: 1px solid red;
+    margin: 50px auto;
+
+}
+#jiesuantitle{
+    overflow: hidden;
+}
+#jiesuantitle div{
+    float: left;
+    height: 51px;
+    width: 105px;
+    background-color:rgb(195,24,31) ;
+    margin: 0 1px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+
+}
+#jiesuantitle p{
+    margin-top: 13px;
+}
+#jiesuantitle #shangpin{
+    width:259px;
+
+}
+#che{
+    width: 1002px;
+    height: 374px;
+    border: 1px solid rgb(56,58,57);
+    margin: 20px auto;
+}
+#che div{
+float: left;
+}
+#xiaoche{
+    margin-top: 86px;
+    margin-left:149px ;
+}
+#wenzi{
+    margin-top: 118px;
+    margin-left:13px ;
+}
+#wenzi p{
+    font-size: 26px;
+}
+#wenzi div{
+    font-size: 18px;
+    margin-top: 7px;
+    line-height:  60px;
+}
+#wenzi div div{
+    width: 151px;
+    height: 44px;
+    background-color: rgb(195,24,31);
+    color: white;
+    line-height:  44px;
+    text-align: center;
+}
+#wenzi input{
+width: 221px;
+    height: 40px;
+}
+#wenzi #button{
+    border: 1px solid  rgb(169, 169, 169);
+    height: 44px;
+    background-color: white;
+    color:rgb(56,58,57);
+    width: 51px;
+    margin-left: -6px;
+}
+
+
+
+
+
+
+
+
+/*底部*/
+#tiaodiv{
+    margin-left:211px;
+}
+#tiaodiv>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 13px;
+}
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(195,24,31);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti {
+    line-height: 60px;
+    font-size: 20px;
+
+}

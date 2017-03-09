@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#shezhidizhi{
+    width: 1002px;
+
+    margin: 20px auto;
+}
+#title{
+    height: 62px;
+    background-color: rgb(195,24,31);
+    overflow: hidden;
+}
+#title>div{
+    color: white;
+    line-height: 62px;
+    text-align: center;
+}
+#xinxi>div{
+    float: left;
+}
+#xinxi{
+    overflow: hidden;
+    margin-left: 191px;
+    margin-top: 23px;
+}
+#kuang input{
+    border: 1px solid rgb(195,24,31);
+    height: 32px;
+    width: 313px;
+}
+#kuang select{
+    height: 40px;
+    width: 101px;
+    border: 1px solid rgb(195,24,31);
+}
+#zi li{
+    text-align: right;
+    line-height: 65px;
+}
+#kuang>div{
+    line-height: 65px;
+    margin-left: 13px;
+}
+#kuang span{
+    font-size: 12px;
+    margin-left: 9px;
+}
+#queren{
+    width: 220px;
+    height: 54px;
+    background-color:rgb(195,24,31) ;
+    margin: 20px 354px;
+    color: white;
+    text-align: center;
+    line-height: 54px;
+    font-size: 21px;
+
+}

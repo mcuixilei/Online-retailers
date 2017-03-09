@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认信息</title>
+    <link rel="stylesheet" type="text/css" href="./css/querenxinxi.css">
+        <link rel="stylesheet" type="text/css" href="./css/xiala.css">
+    <script defer src="js/querenxinxi.js"></script>
+        <script defer src="js/sessionStorage.js"></script>
+</head>
+<body>
+<div style="width:100%;">
+    <div style="width: 1349px;margin: 0 auto">
+<div id="top">
+    <div id="dingwei">
+        <ul>
+            <li id="redhrb"><img src="./images/dingwei.jpg"><a href="#"><b>哈尔滨站</b></a></li>
+            <li><a href="#">[切换]</a></li>
+            <li><a href="denglu.html" id="uname">请登录</a></li>
+            <li><a href="yonghuzhuce.html">免费注册</a></li>
+        </ul>
+    </div>
+    <div id="denglu">
+        <ul>
+            <li><a href="index.html">我的丽美<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="chakandingdan.html">我的订单</a></li>
+                        <li><a href="shoucangjia.html">我的收藏</a></li>
+                        <li><a href="#">我的足迹</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="gouwuche01.html"><img src="./images/gouwuche01.jpg">购物车<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="gouwuche02.html" title="查看购物车">查看购物车</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><img src="./images/gouwuche02.png">关注丽美<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li style="    padding: 0px;">
+                            <a href="#"><img src="images/erweima.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">帮助中心<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">购买流程</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">收藏本站<img src="./images/xiabiao.png"></a> </li>
+            <li><a href="#">南岗体验馆：0451-51787440<img src="./images/xiabiao.png"></a>
+                <div class="mylimei">
+                    <ul>
+                        <li class="daoLi"><a href="#">道里体验馆：0451-51788888</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="logo">
+    <img id="biglogo" src="./images/logo.png">
+    <h1>我的购物车</h1>
+</div>
+<div id="gouwuche">
+    <div><img src="./images/gouwuche/gouwuche02.png"></div>
+    <div id="daoru"><img src="./images/gouwuche/daoru.png"><p>导入购物清单</p></div>
+</div>
+
+<div id="xinxi">
+    <div id="diyihang">
+        <div id="shouhuoren">收货人信息</div><div id="dizhi">新增收货地址</div>
+    </div>
+    <div id="xinximain" style="height: 200px">
+
+    </div>
+    <div id="dierhang">
+        <div id="qingdan">商品清单</div><div id="xiugai">返回购物车修改</div>
+    </div>
+</div>
+
+<div id="jiesuan">
+    <div id="jiesuantitle">
+        <div><p><input type="checkbox">&nbsp;&nbsp;全选</p></div>
+        <div id="shangpin"><p>商品</p></div>
+        <div><p>单价</p></div>
+        <div><p>数量</p></div>
+        <div><p>折扣</p></div>
+        <div><p>金额</p></div>
+        <div><p>优惠</p></div>
+        <div><p>操作</p></div>
+    </div>
+    <div id="gouxuan">
+        <div><input type="checkbox">&nbsp;&nbsp;&nbsp;丽美家具自营</div>
+
+    </div>
+    <div id="shangpinliebiao">
+        <div id="shangpinliebiao1">
+            <div>
+                <input type="checkbox">
+            </div>
+            <div class="geshi1">
+                <img src="./images/gouwuche/chuang.jpg">
+            </div>
+            <div class="geshi1" id="wenzi">
+                现代风格 可调节牛皮靠背  多储物格侧柜 真皮1.8米 多功能床
+            </div>
+            <div style="margin-left: 40px">
+                ￥5280.00
+            </div>
+            <div id="shuliang" class="shuliang" style="margin-left: 19px">
+                <div id="jian" class="jian">-</div><div id="shu"class="shu">1</div><div id="jia" class="jia">+</div>
+            </div>
+            <div style="margin-left: 16px">
+                ￥1280.00
+            </div>
+            <div style="margin-left: 26px">
+                ￥4000.00
+            </div>
+            <div id="cuxiao"style="margin-left: 42px" >
+                促销
+            </div>
+            <div id="shanchu" style="margin-left: 57px">
+                删除
+            </div>
+        </div>
+        <div id="shangpinliebiao2">
+            <div>
+                <input type="checkbox">
+            </div>
+            <div class="geshi1">
+                <img src="./images/gouwuche/chuang.jpg">
+            </div>
+            <div class="geshi1" id="wenzi2">
+                现代风格 可调节牛皮靠背  多储物格侧柜 真皮1.8米 多功能床
+            </div>
+            <div style="margin-left: 40px">
+                ￥5280.00
+            </div>
+            <div id="shuliang2" class="shuliang"style="margin-left: 19px">
+                <div id="jian2" class="jian">-</div><div id="shu2"class="shu">1</div><div id="jia2" class="jia">+</div>
+            </div>
+            <div style="margin-left: 16px">
+                ￥1280.00
+            </div>
+            <div style="margin-left: 26px">
+                ￥4000.00
+            </div>
+            <div id="cuxiao2"style="margin-left: 42px" >
+                促销
+            </div>
+            <div id="shanchu2" style="margin-left: 57px">
+                删除
+            </div>
+        </div>
+        <div id="shangpinliebiao3">
+            <div>
+                <input type="checkbox">
+            </div>
+            <div class="geshi1">
+                <img src="./images/gouwuche/chuang.jpg">
+            </div>
+            <div class="geshi1" id="wenzi3">
+                现代风格 可调节牛皮靠背  多储物格侧柜 真皮1.8米 多功能床
+            </div>
+            <div style="margin-left: 40px">
+                ￥5280.00
+            </div>
+            <div id="shuliang3"class="shuliang" style="margin-left: 19px">
+                <div id="jian3" class="jian">-</div><div id="shu3"class="shu">1</div><div id="jia3" class="jia">+</div>
+            </div>
+            <div style="margin-left: 16px">
+                ￥1280.00
+            </div>
+            <div style="margin-left: 26px">
+                ￥4000.00
+            </div>
+            <div id="cuxiao3"style="margin-left: 42px" >
+                促销
+            </div>
+            <div id="shanchu3" style="margin-left: 57px">
+                删除
+            </div>
+        </div>
+        <div id="zhekou">
+            <div id="gongneng">
+                <ul>
+                    <li><div><img src="images/gouwuche/+.png">使用红包抵消部分金额</div></li>
+                    <li><div><img src="images/gouwuche/+.png">乐币抵扣</div></li>
+                    <li><div><img src="images/gouwuche/+.png">使用金币支付</div></li>
+                    <li><div><img src="images/gouwuche/+.png">给卖家留言</div></li>
+
+                </ul>
+            </div>
+            <div id="xianshi">
+                <ul>
+                    <li>商品小计：<span>¥15840</span></li>
+                    <li>配送服务：<span>自提体验馆服务</span></li>
+                    <li>运费/服务费小计： <span>¥0.00</span> </li>
+                    <li>优惠：<span> ¥1280.00</span> </li>
+                    <li>店铺小计：<span>¥1 </span></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="disanhang">
+    <div id="jiesuanxinxi">结算信息</div>
+</div>
+<div id="zongshu">
+    <div id="zongshu1">
+        <ul>
+            <li style="font-size: 16px">店铺总计： ¥38520.00 </li>
+            <li style="font-size: 20px; color: rgb(195,24,31)" >应付总额： ¥38520.00 </li>
+        </ul>
+    </div>
+</div>
+<div id="tijiao">
+    <div id="tijiaodingdan">
+        提交订单
+    </div>
+</div>
+<div id="tiaodiv">
+    <img src="./images/tubiao_01.png">
+    <img src="./images/tubiao_02.png">
+    <img src="./images/tubiao_03.png">
+    <img src="./images/tubiao_04.png">
+    <img src="./images/tubiao_05.png">
+    <img src="./images/tubiao_06.png">
+    <img src="./images/tubiao_07.png">
+    <img src="./images/tubiao_08.png">
+</div>
+<div id="bottom">
+    <div>
+        <ul>
+            <li class="biaoti">关于美美乐</li>
+            <li>公司简介</li>
+            <li>媒体聚焦</li>
+            <li>体验馆</li>
+            <li>诚聘英才</li>
+            <li>招商加盟</li>
+            <li>联系我们</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="biaoti">新手指南</li>
+            <li>注册新用户</li>
+            <li>会员级别</li>
+            <li>金币说明</li>
+            <li>乐币说明</li>
+            <li>订购家具流程</li>
+            <li>体验馆购买指导</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="biaoti">配送安装</li>
+            <li>收货指南</li>
+            <li>体验馆服务费</li>
+            <li>物流配送</li>
+
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="biaoti">售后服务</li>
+            <li>45天无理由退换货</li>
+            <li>如何申请退款</li>
+            <li>维修补件说明</li>
+            <li>第三方订单售后服务</li>
+            <li>贵就赔</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li class="biaoti">购物保障</li>
+            <li>正品保证</li>
+            <li>注册协议</li>
+            <li>隐私保护</li>
+            <li>免责声明</li>
+        </ul>
+    </div>
+    <div>
+        <li class="biaoti">手机微信</li>
+        <img src="./images/erweima.jpg">
+        <li class="biaoti">官方网站</li>
+        <img src="./images/erweima.jpg">
+
+    </div>
+</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(227,225,225);
+}
+#dingwei{
+    margin-left: 140px;
+    font-size: 14px;
+
+}
+#dingwei img{
+    margin-top: -3px;
+}
+#dingwei li{
+    float: left;
+    margin-left:  20px;
+    margin-top: 11px;
+
+}
+#dingwei a{
+    color:rgb(56,58,57);
+}
+#redhrb a{
+    color:rgb(195,24,31);
+}
+#denglu{
+    margin-left: 555px;
+    font-size: 14px;
+}
+#denglu li{
+    float: left;
+
+    margin-top: 11px;
+    margin-left:  20px;
+}
+#denglu a{
+    color:rgb(56,58,57);
+}
+#logo{
+    overflow: hidden;
+    width: 1002px;
+    margin: 20px auto;
+    height: 142px;
+}
+#logo>div{
+    float: left;
+}
+#logo li{
+    float: left;
+    position: relative;
+    font-size: 14px;
+    color:rgb(56,58,57) ;
+    margin-top: 7px;
+    margin-left: 27px;
+
+}
+#sousuo input{
+    width: 254px;
+    height: 41px;
+    border: 1px solid rgb(195,24,31) ;
+    margin-left: 32px;
+    margin-top: 42px;
+}
+#sousuo button{
+    width: 58px;
+    height: 43px;
+    background-image: url(../images/shouye/sousuo.jpg);
+    position: relative;
+    top: 16px;
+    border: none;
+}
+#daohang{
+    overflow: hidden;
+    width: 1002px;
+    margin: 20px auto;
+    height: 53px;
+
+}
+#daohang>div{
+    float: left;
+    color: rgb(56,58,57);
+    font-size: 27px;
+    width: 153px;
+    text-align: center
+;
+}
+#daohang>div:hover{
+    color: #c58016;
+}
+#shaixuan{
+    width: 1002px;
+    height: 426px;
+    border: 1px solid rgb(195,24,31);
+    margin: 20px auto;
+    text-align: center;
+}
+.hang{
+    height: 60px;
+    border-bottom: 1px solid rgb(195,24,31);
+}
+.woshi{
+    width:172px;
+    line-height: 60px;
+    border-right: 1px solid;
+}
+.woshi:hover{
+    background-color:rgb(195,24,31);
+}
+.fenlei>div:hover{
+    color:rgb(195,24,31) ;
+}
+.fenlei{
+    width:817px;
+    margin-left: 11px;
+    margin-top: 19px;
+    font-size: 14px;
+}
+.fenlei input{
+    width: 68px;
+    height: 25px;
+    position: relative;
+
+}
+.hang>div{
+    float: left;
+
+}
+.fenlei>div{
+   float: left;
+    margin-right: 15px;
+}
+.pinpai{
+    position: relative;
+    top: 14px;
+}
+#pinpai>div{
+    margin-top: -18px;
+    margin-left: 4px;
+}
+#zonghe{
+    width: 1002px;
+    height: 69px;
+    margin: 20px auto;
+    border: 1px solid rgb(56,58,57);
+    text-align: center;
+}#zonghe>div{
+    float: left;
+    margin-top: 19px;
+    line-height: 32px;
+ }
+ .geshi1{
+     border: 1px solid rgb(195,24,31);
+     width: 57px;
+     height: 30px;
+     margin-right: 6px;
+ }
+ .geshi2{
+     border: 1px solid rgb(195,24,31);
+     width: 80px;
+     height: 30px;
+ }
+ #peisong{
+     width: 1002px;
+     height: 69px;
+     margin: 20px auto;
+     border-bottom: 1px solid rgb(56,58,57);
+     text-align: center;
+     overflow: hidden;
+     line-height: 63px;
+ }
+ #peisong select{
+     width: 117px;
+     height: 29px;
+     border: 1px solid rgb(195,24,31);
+ }
+ #peisong>div{
+     float: left;
+ }
+ #leixing>div{
+     float: left;
+     margin-left: 9px;
+ }
+ #liebiao{
+     width: 1027px;
+     margin: 20px auto;
+     overflow: hidden;
+ }
+.gouxuan>div{
+     float: left;
+     margin-right: 8px;
+ }
+.yihang>div{
+    float: left;
+    margin-right: 6px;
+    overflow: hidden;
+
+}
+.yihang{
+    overflow: hidden;
+
+
+}
+#fanye>div{
+    float: left;
+    text-align: center;
+    line-height: 51px;
+    margin-right: 20px;
+}
+.zi{
+    width: 130px;
+    height: 48px;
+    border:1px solid rgb(195,24,31)
+}
+.shu{
+    width: 58px;
+    height: 48px;
+    border:1px solid rgb(195,24,31);
+    background-color:rgb(195,24,31) ;
+    color: white;
+
+}
+#cainixihuan{
+    width: 1027px;
+
+    margin: 20px auto;
+
+    overflow: hidden;
+}
+#cainixihuan>div{
+    float: left;
+    margin-right: 12px;
+    margin-top: 22px;
+}
+
+
+
+
+
+
+
+/*底部*/
+#tiaodiv{
+    margin-left:211px;
+}
+#tiaodiv>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 13px;
+}
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(195,24,31);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti{
+    line-height: 60px;
+    font-size: 20px;
+
+}
+.tu{
+    width: 255px;
+    height: 200px;
+}

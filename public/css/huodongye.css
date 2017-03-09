@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#beijing{
+    width: 1349px;
+    height: 3748px;
+    background-image: url("../images/huodongye.jpg");
+}
+#shishangdachuang{
+    width:746px;
+    height: 284px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 1308px;
+    left: 64px;
+}
+#shishangdachuang>div{
+    float: left;
+    margin-right: 5px;
+}
+#shishangdachuang2{
+    width:746px;
+    height: 284px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 1477px;
+    left: 64px;
+}
+
+#shishangdachuang2>div{
+    float: left;
+    margin-right: 5px;
+}
+#shishangdachuang3{
+    width:746px;
+    height: 284px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 1675px;
+    left: 64px;
+}
+
+#shishangdachuang3>div{
+    float: left;
+    margin-right: 5px;
+}
+#shishangdachuang4{
+    width:746px;
+    height: 284px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 1972px;
+    left: 64px;
+}
+
+#shishangdachuang4>div{
+    float: left;
+    margin-right: 5px;
+}
+#shishangdachuang5{
+    width:746px;
+    height: 284px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 2213px;
+    left: 64px;
+}
+
+#shishangdachuang5>div{
+    float: left;
+    margin-right: 5px;
+}
+.xiaotu>div{
+    margin-bottom: 6px;
+}
+span{
+    position: relative;
+    top: -18px;
+    left: 44px;
+    color: rgb(186, 21, 51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(186, 21, 51);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti{
+    line-height: 60px;
+    font-size: 20px;
+
+}

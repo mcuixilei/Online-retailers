@@ -1,0 +1,39 @@
+#top li:hover a{
+    color:rgb(195,24,31);
+}
+.mylimei{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+
+    display: none;
+}
+#denglu li:hover .mylimei{
+    display: block;
+}
+#denglu .mylimei li{
+    float: none;
+    background-color: #e3e1e1;
+    position: relative;
+    left: -32px;
+    margin-top: 0px;
+    top: 10px;
+    height: 32px;
+    padding: 2px 12px;
+}
+#daohang a{
+    color: black;
+}
+#daohang a:hover{
+    color:#c58016;
+}
+.gouxuan{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+}
+
+.shangpin:hover .gouxuan{
+    display: block;
+}

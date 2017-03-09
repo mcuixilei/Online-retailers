@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+    list-style-type: none;
+    text-decoration: none;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(227,225,225);
+}
+#dingwei{
+    margin-left: 140px;
+    font-size: 14px;
+
+}
+#dingwei img{
+    margin-top: -3px;
+}
+#dingwei li{
+    float: left;
+    margin-left:  20px;
+    margin-top: 11px;
+
+}
+#dingwei a{
+    color:rgb(56,58,57);
+}
+#redhrb a{
+    color:rgb(195,24,31);
+}
+#denglu{
+    margin-left: 555px;
+    font-size: 14px;
+}
+#denglu li{
+    float: left;
+    margin-top: 11px;
+    margin-left:  20px;
+}
+#denglu a{
+    color:rgb(56,58,57);
+}
+#logo{
+    width:100%;
+    height: 169px;
+    overflow: hidden;
+}
+#biglogo{
+    margin-left: 173px;
+    margin-top: 26px;
+    position: relative;
+
+}
+h1{
+    margin-left: 521px;
+    margin-top: -83px;
+    position: relative;
+}
+/*登录结束*/
+#quanbu{
+    width: 1002px;
+    height: 51px;
+    /*border: 1px solid red;*/
+    margin: 10px auto;
+}
+#quanbu div{
+    width: 189px;
+    height: 50px;
+    border: 1px solid  rgb(195,24,31);
+    float: left;
+    margin: 0 4px;
+}
+#quanbu p{
+    font-size: 18px;
+    font-family: Regular;
+    margin-left: 68px;
+    margin-top: 15px;
+}
+#quanbu a{
+    color: black;
+}
+#quanbu>div:hover{
+    background-color:rgb(195,24,31);
+    color: #fff;
+}
+#quanbu>div:hover a{
+    /*background-color:rgb(195,24,31) ;*/
+    color: white;
+}
+#fanye #shang{
+    height: 54px;
+    width:169px;
+    border: 1px solid rgb(195,24,31) ;
+    float: left;
+    margin-left: 399px;
+}
+#fanye #xia{
+    height: 54px;
+    width:169px;
+    border: 1px solid rgb(195,24,31) ;
+    float: right;
+    margin-right: 393px;
+}
+.t1{
+    display: block;
+}
+#fanye img{
+    margin: 0px 10px;
+}
+#fanye p{
+    font-size: 18px;
+    font-family: Regular;
+    margin-left: 42px;
+    margin-top: 18px;
+}
+#fanye{
+    margin-top: 60px;
+}
+#liebiao{
+    width: 990px;
+    margin: 5px auto;
+}
+#t1{
+    width: 990px;
+    height: 198px;
+    background-color: rgb(242,242,242);
+    overflow: hidden;
+}
+#t11{
+    overflow: hidden;
+}
+.zuo{
+    float: left;
+    margin: 10px 5px;
+}
+.you{
+    float: right;
+}
+.zuom{
+    margin-top: 20px;
+}
+#fukuan div{
+    float: right;
+    border: 1px solid red;
+    width: 104px;
+    height: 39px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    margin-right: 10px;
+line-height: 39px;
+}
+#t1 input{
+    position: relative;
+    top:51px;
+}
+#zi{
+    position: relative;
+    top:51px;
+}
+#xiangqing{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#xiangqing li{
+line-height: 29px;
+    text-align: right;
+
+}
+
+
+
+#t2{
+    width: 990px;
+    height: 198px;
+    background-color: rgb(242,242,242);
+    overflow: hidden;
+}
+#t22{
+    overflow: hidden;
+}
+.zuo{
+    float: left;
+    margin: 10px 5px;
+}
+.you{
+    float: right;
+}
+.zuom{
+    margin-top: 20px;
+}
+#fukuan2 div{
+    float: right;
+    border: 1px solid red;
+    width: 104px;
+    height: 39px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    margin-right: 10px;
+    line-height: 39px;
+}
+#t2 input{
+    position: relative;
+    top:51px;
+}
+#zi2{
+    position: relative;
+    top:51px;
+}
+#xiangqing2{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#xiangqing2 li{
+    line-height: 29px;
+    text-align: right;
+
+}
+
+#t3{
+    width: 990px;
+    height: 198px;
+    background-color: rgb(242,242,242);
+    overflow: hidden;
+}
+#t33{
+    overflow: hidden;
+}
+.zuo{
+    float: left;
+    margin: 10px 5px;
+}
+.you{
+    float: right;
+}
+.zuom{
+    margin-top: 20px;
+}
+#fukuan3 div{
+    float: right;
+    border: 1px solid red;
+    width: 104px;
+    height: 39px;
+    background-color: white;
+    text-align: center;
+    color: red;
+    margin-right: 10px;
+    line-height: 39px;
+}
+#t3 input{
+    position: relative;
+    top:51px;
+}
+#zi3{
+    position: relative;
+    top:51px;
+}
+#xiangqing3{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#xiangqing3 li{
+    line-height: 29px;
+    text-align: right;
+
+}
+#t1,#t2,#t3{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*底部*/
+#tiaodiv{
+    margin-left:211px;
+}
+#tiaodiv>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 13px;
+}
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(195,24,31);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti{
+    line-height: 60px;
+    font-size: 20px;
+
+}

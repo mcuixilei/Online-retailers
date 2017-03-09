@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(227,225,225);
+}
+#dingwei{
+    margin-left: 140px;
+    font-size: 14px;
+
+}
+#dingwei img{
+    margin-top: -3px;
+}
+#dingwei li{
+    float: left;
+    margin-left:  20px;
+    margin-top: 11px;
+
+}
+#dingwei a{
+    color:rgb(56,58,57);
+}
+#redhrb a{
+    color:rgb(195,24,31);
+}
+#denglu{
+    margin-left: 555px;
+    font-size: 14px;
+}
+#denglu li{
+    float: left;
+
+    margin-top: 11px;
+    margin-left:  20px;
+}
+#denglu a{
+    color:rgb(56,58,57);
+}
+#logo{
+    overflow: hidden;
+    width: 1002px;
+    margin: 20px auto;
+    height: 142px;
+}
+#logo>div{
+    float: left;
+}
+#logo li{
+    float: left;
+    position: relative;
+    font-size: 14px;
+    color:rgb(56,58,57) ;
+    margin-top: 7px;
+    margin-left: 27px;
+
+}
+#sousuo input{
+    width: 254px;
+    height: 41px;
+    border: 1px solid rgb(195,24,31) ;
+    margin-left: 32px;
+    margin-top: 42px;
+}
+#sousuo button{
+    width: 58px;
+    height: 43px;
+    background-image: url(../images/shouye/sousuo.jpg);
+    position: relative;
+    top: 16px;
+    border: none;
+}
+#daohang{
+    overflow: hidden;
+    width: 1002px;
+    margin: 20px auto;
+    height: 53px;
+
+}
+#daohang>div{
+    float: left;
+    color: rgb(56,58,57);
+    font-size: 27px;
+    width: 153px;
+    text-align: center
+;
+}
+#daohang>div:hover{
+    color: #c58016;
+}
+#xiangqing{
+    overflow: hidden;
+    width: 1020px;
+    margin: 20px auto;
+    height: 800px;
+}
+#xiangqing>div{
+    float: left;
+
+}
+#xiaotu>div{
+    float: left;
+}
+#xiaotu{
+    overflow: hidden;
+}
+#dizhi>div{
+    float: left;
+}
+#dizhi{
+    overflow: hidden;
+}
+#tiyanguan{
+    margin: 7px;
+    line-height: 28px;
+}
+#wenzimiaoshu{
+    overflow: hidden;
+    margin-left: 11px;
+}
+#wenzimiaoshu>div{
+
+    margin-bottom: 26px;
+}
+#cuxiao{
+    overflow: hidden;
+}
+#cuxiao>div{
+    float: left;
+    line-height: 24px;
+}
+#jiajian{
+    overflow: hidden;
+    width:90px;height: 44px;
+    border: 1px solid #cf000e;
+    text-align: center
+}
+#jiajian>div{
+    float: left;
+}
+#shuliang{
+    overflow: hidden;
+}
+#shuliang>div{
+    float: left;
+}
+#goumai{
+    overflow: hidden;
+    text-align: center;
+    line-height: 58px;
+    font-size: 24px;
+}
+#goumai>div{
+    float: left;
+    margin-right: 15px;
+}
+#jiage>span{
+    margin-right: 9px;
+}
+#dadatu{
+    width: 1027px;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+/*底部*/
+#tiaodiv{
+    margin-left:211px;
+}
+#tiaodiv>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 13px;
+}
+#bottom{
+    width: 100%;
+    height: 437px;
+    background-color:  rgb(195,24,31);
+}
+
+#bottom div{
+    float: left;
+    margin-left: 60px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+    font-size: 14px;
+}
+#bottom div:first-child{
+    float: left;
+    margin-left: 209px;
+    line-height: 44px;
+    margin-top: 52px;
+    color: white;
+
+}
+.biaoti{
+    line-height: 60px;
+    font-size: 20px;
+
+}
